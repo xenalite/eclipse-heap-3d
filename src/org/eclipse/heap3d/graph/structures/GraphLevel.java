@@ -9,14 +9,14 @@ import java.util.NoSuchElementException;
 
 import javafx.geometry.Point3D;
 
-import org.imperial.eclipse3dheap.layout.algorithms.ConcreteGraph;
-import org.imperial.eclipse3dheap.layout.algorithms.FRLayoutDecorator;
-import org.imperial.eclipse3dheap.layout.algorithms.IGraph;
-import org.imperial.eclipse3dheap.layout.algorithms.ILayout;
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.nodes.StackNode;
-import org.imperial.eclipse3dheap.reference.Reference;
-import org.imperial.eclipse3dheap.utils.Utils;
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.layout.ConcreteGraph;
+import org.eclipse.heap3d.graph.layout.FRLayoutDecorator;
+import org.eclipse.heap3d.graph.layout.IGraph;
+import org.eclipse.heap3d.graph.layout.ILayout;
+import org.eclipse.heap3d.graph.nodes.INode;
+import org.eclipse.heap3d.graph.nodes.StackNode;
+import org.eclipse.heap3d.utils.Utils;
 
 public class GraphLevel implements Iterable<VertexEdges> {
 

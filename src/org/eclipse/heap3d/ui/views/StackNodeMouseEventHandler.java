@@ -3,8 +3,8 @@ package org.eclipse.heap3d.ui.views;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Shape3D;
 
-import org.imperial.eclipse3dheap.layout.heapgraph.NodeManager;
-import org.imperial.eclipse3dheap.nodes.INode;
+import org.eclipse.heap3d.graph.nodes.INode;
+import org.eclipse.heap3d.graph.structures.NodeManager;
 
 public class StackNodeMouseEventHandler extends NodeMouseEventHandler {
 

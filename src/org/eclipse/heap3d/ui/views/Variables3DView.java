@@ -1,32 +1,29 @@
 package org.eclipse.heap3d.ui.views;
 
-import javafx.scene.Group;
+import javafx.embed.swt.FXCanvas;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.text.Font;
-import javafx.scene.text.Text;
 
-import org.eclipse.fx.ui.workbench3.FXViewPart;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.ui.part.ViewPart;
 
-public class Variables3DView extends FXViewPart {
+public class Variables3DView extends ViewPart {
 
+  private FXCanvas canvas;
   
-  public Variables3DView() {
+  @Override
+  public void createPartControl(Composite parent) {
+    canvas = new FXCanvas(parent, SWT.NONE);
+    canvas.setScene(createScene());
+  }
+
+  private Scene createScene() {
+    return null;
   }
 
   @Override
-  protected Scene createFxScene() {
-    Group g = new Group();
-    Button t = new Button("hello");
-    g.getChildren().add(t);
-    Scene scene = new Scene(g, 1024, 768);
-    return scene;
-  }
-
-  @Override
-  protected void setFxFocus() {
-    // TODO Auto-generated method stub
-    
+  public void setFocus() {
+    canvas.setFocus();
   }
 
 }

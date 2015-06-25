@@ -16,12 +16,12 @@ import javafx.scene.text.Text;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import org.eclipse.heap3d.graph.edges.ReferenceAttributes;
+import org.eclipse.heap3d.graph.edges.Type;
+import org.eclipse.heap3d.graph.edges.Type.TypeKind;
+import org.eclipse.heap3d.graph.nodes.INode;
 import org.eclipse.heap3d.resources.Resources;
 import org.eclipse.heap3d.ui.views.Configuration.TypeNameDisplayMode;
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.reference.ReferenceAttributes;
-import org.imperial.eclipse3dheap.reference.Type;
-import org.imperial.eclipse3dheap.reference.Type.TypeKind;
 
 public class DialogService {
 

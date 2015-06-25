@@ -6,14 +6,8 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: org.eclipse.heap3d.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
- org.eclipse.fx.ui.workbench3
+ org.eclipse.debug.core;bundle-version="3.9.1",
+ org.eclipse.jdt.debug;bundle-version="3.8.102",
+ org.eclipse.jdt.core;bundle-version="3.10.2"
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
-Export-Package: org.imperial.eclipse3dheap.debug,
- org.imperial.eclipse3dheap.layout.algorithms,
- org.imperial.eclipse3dheap.layout.heapgraph,
- org.imperial.eclipse3dheap.nodes,
- org.imperial.eclipse3dheap.reference,
- org.imperial.eclipse3dheap.resources,
- org.imperial.eclipse3dheap.utils,
- org.imperial.eclipse3dheap.views

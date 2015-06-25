@@ -17,21 +17,21 @@ import javafx.application.Platform;
 import javafx.geometry.Point3D;
 
 import org.eclipse.debug.core.DebugException;
+import org.eclipse.heap3d.graph.edges.EdgeType;
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.layout.ConcreteGraph;
+import org.eclipse.heap3d.graph.layout.IGraph;
+import org.eclipse.heap3d.graph.nodes.INode;
+import org.eclipse.heap3d.graph.nodes.StackNode;
+import org.eclipse.heap3d.ui.views.Main3DScene;
+import org.eclipse.heap3d.ui.views.UpdateInformation;
+import org.eclipse.heap3d.utils.NodeConnection;
+import org.eclipse.heap3d.utils.Utils;
 import org.eclipse.jdt.debug.core.IJavaObject;
 import org.eclipse.jdt.debug.core.IJavaPrimitiveValue;
 import org.eclipse.jdt.debug.core.IJavaStackFrame;
 import org.eclipse.jdt.debug.core.IJavaValue;
 import org.eclipse.jdt.debug.core.IJavaVariable;
-import org.imperial.eclipse3dheap.layout.algorithms.ConcreteGraph;
-import org.imperial.eclipse3dheap.layout.algorithms.IGraph;
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.nodes.StackNode;
-import org.imperial.eclipse3dheap.reference.EdgeType;
-import org.imperial.eclipse3dheap.reference.Reference;
-import org.imperial.eclipse3dheap.utils.NodeConnection;
-import org.imperial.eclipse3dheap.utils.Utils;
-import org.imperial.eclipse3dheap.views.Main3DScene;
-import org.imperial.eclipse3dheap.views.UpdateInformation;
 
 public class NodeManager {
 

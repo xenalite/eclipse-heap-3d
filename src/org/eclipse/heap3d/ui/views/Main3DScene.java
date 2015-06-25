@@ -24,16 +24,16 @@ import javafx.scene.paint.PhongMaterial;
 import javafx.scene.shape.Box;
 import javafx.scene.shape.Shape3D;
 
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.edges.Type;
+import org.eclipse.heap3d.graph.edges.Type.TypeKind;
+import org.eclipse.heap3d.graph.nodes.INode;
+import org.eclipse.heap3d.graph.structures.NodeAndReferencesDTO;
+import org.eclipse.heap3d.graph.structures.NodeManager;
 import org.eclipse.heap3d.resources.Resources;
 import org.eclipse.heap3d.utils.GeometryUtils;
 import org.eclipse.heap3d.utils.NodeConnection;
 import org.eclipse.heap3d.utils.Utils;
-import org.imperial.eclipse3dheap.layout.heapgraph.NodeAndReferencesDTO;
-import org.imperial.eclipse3dheap.layout.heapgraph.NodeManager;
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.reference.Reference;
-import org.imperial.eclipse3dheap.reference.Type;
-import org.imperial.eclipse3dheap.reference.Type.TypeKind;
 
 public class Main3DScene {
 

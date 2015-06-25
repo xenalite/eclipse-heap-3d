@@ -7,6 +7,9 @@ import java.util.Map;
 
 import org.eclipse.debug.core.DebugException;
 import org.eclipse.debug.core.model.IVariable;
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.edges.ReferenceAttributes;
+import org.eclipse.heap3d.graph.edges.Type;
 import org.eclipse.jdt.debug.core.IJavaArrayType;
 import org.eclipse.jdt.debug.core.IJavaClassType;
 import org.eclipse.jdt.debug.core.IJavaInterfaceType;
@@ -16,9 +19,6 @@ import org.eclipse.jdt.debug.core.IJavaStackFrame;
 import org.eclipse.jdt.debug.core.IJavaType;
 import org.eclipse.jdt.debug.core.IJavaValue;
 import org.eclipse.jdt.debug.core.IJavaVariable;
-import org.imperial.eclipse3dheap.reference.Reference;
-import org.imperial.eclipse3dheap.reference.ReferenceAttributes;
-import org.imperial.eclipse3dheap.reference.Type;
 
 public class ObjectNode implements INode {
 

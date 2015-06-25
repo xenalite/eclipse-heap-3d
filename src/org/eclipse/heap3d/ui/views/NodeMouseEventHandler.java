@@ -15,9 +15,9 @@ import javafx.scene.shape.Box;
 import javafx.scene.shape.Shape3D;
 import javafx.scene.transform.Rotate;
 
+import org.eclipse.heap3d.graph.nodes.INode;
+import org.eclipse.heap3d.graph.structures.NodeManager;
 import org.eclipse.heap3d.resources.Resources;
-import org.imperial.eclipse3dheap.layout.heapgraph.NodeManager;
-import org.imperial.eclipse3dheap.nodes.INode;
 
 public class NodeMouseEventHandler implements EventHandler<MouseEvent> {
   protected BooleanProperty isExpanded = new SimpleBooleanProperty(false);

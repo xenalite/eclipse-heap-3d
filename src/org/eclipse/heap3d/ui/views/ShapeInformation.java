@@ -5,7 +5,7 @@ import java.util.Map;
 
 import javafx.scene.shape.Shape3D;
 
-import org.imperial.eclipse3dheap.reference.Reference;
+import org.eclipse.heap3d.graph.edges.Reference;
 
 public class ShapeInformation {
 

@@ -6,9 +6,9 @@ import java.util.Deque;
 import java.util.HashSet;
 import java.util.Iterator;
 
-import org.imperial.eclipse3dheap.layout.algorithms.IGraph;
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.reference.Reference;
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.layout.IGraph;
+import org.eclipse.heap3d.graph.nodes.INode;
 
 public class SpanningTreeIterator implements Iterator<VertexEdges> {
 

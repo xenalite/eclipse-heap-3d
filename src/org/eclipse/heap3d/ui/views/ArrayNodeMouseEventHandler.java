@@ -25,11 +25,11 @@ import javafx.scene.transform.Rotate;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import org.eclipse.heap3d.graph.edges.ReferenceAttributes;
+import org.eclipse.heap3d.graph.nodes.CollectionNode;
+import org.eclipse.heap3d.graph.nodes.INode;
+import org.eclipse.heap3d.graph.structures.NodeManager;
 import org.eclipse.heap3d.resources.Resources;
-import org.imperial.eclipse3dheap.layout.heapgraph.NodeManager;
-import org.imperial.eclipse3dheap.nodes.CollectionNode;
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.reference.ReferenceAttributes;
 
 public class ArrayNodeMouseEventHandler implements EventHandler<MouseEvent> {
 	protected boolean isExpanded = false;

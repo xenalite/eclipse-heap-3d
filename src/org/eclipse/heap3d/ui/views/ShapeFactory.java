@@ -19,11 +19,11 @@ import javafx.scene.transform.Rotate;
 import javafx.scene.transform.Scale;
 import javafx.scene.transform.Translate;
 
+import org.eclipse.heap3d.graph.edges.EdgeType;
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.edges.ReferenceAttributes;
 import org.eclipse.heap3d.resources.Resources;
 import org.eclipse.heap3d.utils.GeometryUtils;
-import org.imperial.eclipse3dheap.reference.EdgeType;
-import org.imperial.eclipse3dheap.reference.Reference;
-import org.imperial.eclipse3dheap.reference.ReferenceAttributes;
 
 public class ShapeFactory {
 

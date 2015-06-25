@@ -2,8 +2,8 @@ package org.eclipse.heap3d.utils;
 
 import javafx.geometry.Point3D;
 
-import org.imperial.eclipse3dheap.nodes.INode;
-import org.imperial.eclipse3dheap.reference.Reference;
+import org.eclipse.heap3d.graph.edges.Reference;
+import org.eclipse.heap3d.graph.nodes.INode;
 
 public class NodeConnection {
 

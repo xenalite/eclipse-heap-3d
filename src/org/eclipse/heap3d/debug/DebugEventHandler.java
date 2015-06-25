@@ -5,9 +5,9 @@ import org.eclipse.debug.core.DebugException;
 import org.eclipse.debug.core.DebugPlugin;
 import org.eclipse.debug.core.IDebugEventSetListener;
 import org.eclipse.debug.core.model.IDebugTarget;
+import org.eclipse.heap3d.graph.structures.NodeManager;
 import org.eclipse.jdt.debug.core.IJavaStackFrame;
 import org.eclipse.jdt.debug.core.IJavaThread;
-import org.imperial.eclipse3dheap.layout.heapgraph.NodeManager;
 
 public class DebugEventHandler implements IDebugEventSetListener {
 
