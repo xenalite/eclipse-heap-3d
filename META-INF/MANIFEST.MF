@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Eclipse Heap 3D
+Bundle-SymbolicName: eclipse-heap-3d
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipse.heap3d.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.fx.ui.workbench3
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: org.imperial.eclipse3dheap.debug,
+ org.imperial.eclipse3dheap.layout.algorithms,
+ org.imperial.eclipse3dheap.layout.heapgraph,
+ org.imperial.eclipse3dheap.nodes,
+ org.imperial.eclipse3dheap.reference,
+ org.imperial.eclipse3dheap.resources,
+ org.imperial.eclipse3dheap.utils,
+ org.imperial.eclipse3dheap.views
